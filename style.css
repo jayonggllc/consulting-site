@@ -368,6 +368,10 @@ h1, h2, h3 {
   font-family: var(--font-body);
 }
 
+.rate-sheet .rate-note {
+  padding-left: 20px;
+}
+
 .inline-link { color: var(--cyan); text-decoration: underline; }
 
 /* ---- CTA ---- */
