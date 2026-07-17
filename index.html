@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Software Consulting</title>
+<meta name="description" content="Hourly software consulting: architecture review, code audits, and technical advisory.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="blueprint-grid" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true">⌐</span>
+      <span>YOUR&nbsp;NAME</span>
+    </a>
+    <nav class="site-nav">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#rates">Rates</a>
+      <a href="#book" class="nav-cta">Book a session</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">// software consulting, hourly</p>
+        <h1>I fix systems<br>that don't fit together.</h1>
+        <p class="hero-sub">
+          Architecture reviews, code audits, and second-opinion advisory for
+          teams who need a senior engineer's eyes on something —
+          without a full-time hire.
+        </p>
+        <div class="hero-actions">
+          <a href="#book" class="btn btn-primary">Book a session</a>
+          <a href="#rates" class="btn btn-ghost">See rates</a>
+        </div>
+      </div>
+
+      <div class="hero-diagram" aria-hidden="true">
+        <svg viewBox="0 0 480 420" fill="none" xmlns="http://www.w3.org/2000/svg" id="schematic">
+          <!-- connecting lines -->
+          <g class="diagram-lines" stroke="var(--cyan)" stroke-width="1.5" stroke-dasharray="6 6">
+            <path class="draw-line" d="M120 90 L120 180" />
+            <path class="draw-line" d="M360 90 L360 180" />
+            <path class="draw-line" d="M120 180 L240 240" />
+            <path class="draw-line" d="M360 180 L240 240" />
+            <path class="draw-line" d="M240 240 L240 310" />
+            <path class="draw-line" d="M240 310 L120 360" />
+            <path class="draw-line" d="M240 310 L360 360" />
+          </g>
+          <!-- nodes -->
+          <g class="diagram-nodes">
+            <rect x="70" y="50" width="100" height="40" rx="2" class="node node-a"/>
+            <text x="120" y="75" class="node-label">CLIENT</text>
+
+            <rect x="310" y="50" width="100" height="40" rx="2" class="node node-a"/>
+            <text x="360" y="75" class="node-label">CLIENT</text>
+
+            <rect x="190" y="200" width="100" height="40" rx="2" class="node node-b"/>
+            <text x="240" y="225" class="node-label">API</text>
+
+            <rect x="70" y="330" width="100" height="40" rx="2" class="node node-c"/>
+            <text x="120" y="355" class="node-label">DB</text>
+
+            <rect x="310" y="330" width="100" height="40" rx="2" class="node node-c"/>
+            <text x="360" y="355" class="node-label">QUEUE</text>
+          </g>
+          <!-- annotation callout -->
+          <g class="diagram-callout">
+            <circle cx="240" cy="220" r="3" fill="var(--amber)"/>
+            <line x1="243" y1="217" x2="290" y2="150" stroke="var(--amber)" stroke-width="1"/>
+            <text x="294" y="147" class="callout-label">bottleneck, fig. 3</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="section">
+    <div class="wrap">
+      <p class="section-label">§1 — services</p>
+      <div class="services-grid">
+
+        <article class="service-card">
+          <p class="spec-tag">SPEC A</p>
+          <h3>Architecture review</h3>
+          <p>A structured walkthrough of your system design — where it'll bend,
+             where it'll break, and what to fix before it costs you a weekend.</p>
+        </article>
+
+        <article class="service-card">
+          <p class="spec-tag">SPEC B</p>
+          <h3>Code audit</h3>
+          <p>Deep read of a codebase or a critical module. You get a written
+             report ranking issues by risk, not a vague "looks fine."</p>
+        </article>
+
+        <article class="service-card">
+          <p class="spec-tag">SPEC C</p>
+          <h3>Technical advisory</h3>
+          <p>Standing hours for a founder or CTO who wants a second opinion
+             on stack choices, hiring, or build-vs-buy calls.</p>
+        </article>
+
+        <article class="service-card">
+          <p class="spec-tag">SPEC D</p>
+          <h3>Incident debrief</h3>
+          <p>Something broke in production. I help you trace the root
+             cause and write the postmortem that actually prevents a repeat.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section id="process" class="section section-alt">
+    <div class="wrap">
+      <p class="section-label">§2 — how booking works</p>
+      <ol class="process-steps">
+        <li>
+          <span class="step-num">01</span>
+          <div>
+            <h3>Pick a slot</h3>
+            <p>Grab an open hour on the calendar below — times shown in your local zone.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">02</span>
+          <div>
+            <h3>Pay to confirm</h3>
+            <p>Payment is handled securely at booking. No invoice chasing, no surprises.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">03</span>
+          <div>
+            <h3>We get on a call</h3>
+            <p>Send over context beforehand — repo access, docs, whatever's relevant — and we get straight to it.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ RATES ============ -->
+  <section id="rates" class="section">
+    <div class="wrap">
+      <p class="section-label">§3 — rates</p>
+      <div class="rate-sheet">
+        <div class="rate-row rate-row-head">
+          <span>SESSION</span>
+          <span>LENGTH</span>
+          <span>RATE</span>
+        </div>
+        <div class="rate-row">
+          <span>Quick consult</span>
+          <span>30 min</span>
+          <span>$XXX</span>
+        </div>
+        <div class="rate-row">
+          <span>Standard session</span>
+          <span>60 min</span>
+          <span>$XXX</span>
+        </div>
+        <div class="rate-row">
+          <span>Deep dive</span>
+          <span>90 min</span>
+          <span>$XXX</span>
+        </div>
+        <p class="rate-note">Rates in USD. Written follow-up notes included with every session.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BOOK ============ -->
+  <section id="book" class="section section-cta">
+    <div class="wrap">
+      <p class="section-label">§4 — book</p>
+      <h2>Ready to fix the thing?</h2>
+      <p class="hero-sub">Booking opens a scheduling page where you'll pick a time and pay to confirm.</p>
+      <a href="https://calendly.com/your-username" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+        Open scheduling page →
+      </a>
+      <p class="rate-note" style="margin-top:24px;">Prefer email first? <a href="mailto:you@example.com" class="inline-link">you@example.com</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© <span id="year"></span> Your Name — Software Consulting</span>
+    <span class="footer-links">
+      <a href="mailto:you@example.com">Email</a>
+      <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a>
+    </span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
