@@ -427,12 +427,12 @@ h1, h2, h3 {
    RESPONSIVE
    ============================================ */
 @media (max-width: 860px) {
-  .hero { padding: 40px 0 56px; }
+  .hero { padding: 28px 0 48px; }
   .hero-inner { grid-template-columns: 1fr; }
-  .hero-profile { order: -1; max-width: 220px; margin: 0 auto 4px; gap: 10px; }
+  .hero-profile { order: -1; max-width: 100%; margin: 0 auto 0; gap: 8px; }
   .profile-photo,
   .profile-note {
-    width: min(100%, 220px);
+    width: min(100%, 160px);
   }
   .profile-photo { aspect-ratio: 1 / 1; }
   .hero h1 { max-width: 12ch; }
@@ -444,8 +444,8 @@ h1, h2, h3 {
   .profile-note {
     display: flex;
     justify-content: center;
-    gap: 8px;
-    width: min(100vw - 56px, 360px);
+    gap: 12px;
+    width: 100%;
     border: 0;
     background: transparent;
   }
@@ -456,6 +456,7 @@ h1, h2, h3 {
     border-top: 0;
     color: var(--cyan);
     font-size: 11px;
+    white-space: nowrap;
     text-decoration: underline;
     text-underline-offset: 3px;
   }
