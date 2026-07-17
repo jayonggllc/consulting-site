@@ -1,4 +1,4 @@
-# Jay Ongg - Coaching, Mentorin,g and Consulting
+# Jay Ongg - Coaching, Mentoring, and Consulting
 
 A simple landing page for hourly software consulting, styled as an
 engineering blueprint (schematic diagram, spec-sheet rate table, grid background).
@@ -16,7 +16,7 @@ Search each file for these and replace with your real info:
 | Placeholder | Where | Replace with |
 |---|---|---|
 | `Your Name` / `YOUR NAME` | `index.html` (title, nav, footer) | Your name or business name |
-| `https://calendly.com/your-username` | `index.html`, "Book" section | Your real Calendly link |
+| `https://calendly.com/jayongg-llc` | `index.html`, "Book" section | Your real Calendly link |
 | `you@example.com` | `index.html`, footer + book section | Your email |
 | `https://github.com/your-username` | `index.html`, footer | Your GitHub |
 | `https://www.linkedin.com/in/your-username` | `index.html`, footer | Your LinkedIn (or delete the line) |
